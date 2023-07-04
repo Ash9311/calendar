@@ -1,0 +1,26 @@
+.calendar-weekdays{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    gap: 25px;
+}
+
+.calendar-weekdays li{
+    list-style-type: none;
+}
+
+.calendar-body{
+    margin-top: 5%;
+    border: 1px solid #ccc;
+  padding: 10px;
+  display: flex;
+  width: 30%;
+  height:300px;
+}
+
+.calendar-container{
+    display: flex;
+    justify-content: center;
+    
+}
