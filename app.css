@@ -1,26 +1,39 @@
-.calendar-weekdays{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    
-    gap: 25px;
-}
-
-.calendar-weekdays li{
-    list-style-type: none;
-}
-
-.calendar-body{
-    margin-top: 5%;
-    border: 1px solid #ccc;
-  padding: 10px;
-  display: flex;
-  width: 30%;
-  height:300px;
+h1{
+    text-align: center;
 }
 
 .calendar-container{
-    display: flex;
-    justify-content: center;
-    
+    height: 400px;
+    width: 400px;
+    border-style: solid;
+    border-width: 5px;
+    margin: auto;   
 }
+
+.calendar-header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+  
+#calendar-table {
+    width: 100%;
+  }
+  
+#calendar-table th {
+    padding: 5px;
+    background-color: #f0f0f0;
+    text-align: center;
+  }
+  
+  #calendar-table td {
+    padding: 5px;
+    text-align: center;
+  }
+
+  
+  #calendar-table td:hover {
+    background-color: #f1f1f1;
+  }
+  
